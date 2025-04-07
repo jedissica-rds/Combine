@@ -19,17 +19,6 @@ extension Publisher where Output == [Team] {
         .eraseToAnyPublisher()
     }
 }
-//
-//extension Publisher where Output: Comparable, Failure == Error {
-//    
-//    func rank<T : Comparable & Publisher>(items : T...) -> AnyPublisher<[T], Never> {
-//        var collection = Publishers.MergeMany(items)
-//        return self
-//            .combineLatest(collection)
-//                
-//    }
-//}
-
 
 class TeamScoreViewModel : ObservableObject {
     
