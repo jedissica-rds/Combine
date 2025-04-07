@@ -14,7 +14,7 @@ struct Menu: View {
                 NavigationLink {
                     Password()
                 } label: {
-                    Text("Password - UI Update")
+                    Text("Password - UI Update ")
                         .font(.headline)
                         .padding()
                         .background(Color.blue)

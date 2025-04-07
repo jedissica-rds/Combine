@@ -7,6 +7,8 @@
 
 import Foundation
 
+//Pokemon Model
+
 struct Team: Codable, Comparable {
     
     static func < (lhs: Team, rhs: Team) -> Bool {

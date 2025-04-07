@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 
+//APIEndPoint
+
 enum PokemonEndPoint: APIEndpoint {
     case getAllPokemon
     case getPokemon(name : String)
