@@ -11,7 +11,6 @@ A ideia é explorar seus conceitos-chave aplicando na prática com SwiftUI e arq
 - Criar publishers personalizados
 - Utilizar operadores (`map`, `filter`, `merge`, etc.)
 - Integrar Combine com chamadas de rede (URLSession)
-- Praticar a separação de responsabilidades em um app real
 
 ---
 
